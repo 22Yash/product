@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Montagu+Slab:opsz,wght@16..144,500&family=Montserrat&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Hanken+Grotesk&family=Montagu+Slab:opsz,wght@16..144,500&family=Montserrat&family=Patua+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid{
+    margin: 30px auto ;
+    padding: 0 30px;
+    
+}
+.grid{
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    border-radius: 15px;
+   overflow: hidden;
+}
+.img-fluid img{
+    max-width: 100%;
+    display: inherit;
+}
+.card h2{
+    text-align: left;
+    font-family: 'Fraunces', serif;
+    justify-content: center;
+    align-items: center;
+   padding-left: 30px;
+   padding-top:  ;
+    display: block;
+    font-weight: 20px;
+    font-size: 40px;
+   
+    
+}
+.first{
+    font-size: 14px;
+    word-spacing: 5px;
+    padding-top: 10px;
+    padding-left: 300px;
+}
+    
+
+.card p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  padding: 40px;
+   font-size: 14px;
+   padding-bottom: 2px;
+
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.btn-lg{
+    background: linear-gradient( to right , hsl(168, 51%, 22%), hsl(212, 21%, 14%));
+    color: white; 
+    margin: 16px;
+    padding: 5px;
+    padding-top: 4px;
+    border-radius: 5px;
+    
+
+} 
+
+
+
